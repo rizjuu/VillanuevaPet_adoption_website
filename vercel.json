@@ -1,6 +1,10 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "build": {
+    "command": "npm run build",
+    "outputDirectory": "dist/client"
+  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
